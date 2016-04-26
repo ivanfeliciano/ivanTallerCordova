@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.ivanApp" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Contacts">
+        <param name="android-package" value="org.apache.cordova.contacts.ContactManager" />
+    </feature>
+    <allow-intent href="market:*" />
+    <splash density="land-hdpi" src="www/img/dogue.png" />
+    <splash density="land-ldpi" src="www/img/dogue.png" />
+    <splash density="land-mdpi" src="www/img/dogue.png" />
+    <splash density="land-xhdpi" src="www/img/dogue.png" />
+    <splash density="port-hdpi" src="www/img/dogue.png" />
+    <splash density="port-ldpi" src="www/img/dogue.png" />
+    <splash density="port-mdpi" src="www/img/dogue.png" />
+    <splash density="port-xhdpi" src="www/img/dogue.png" />
+    <name>ivanApp</name>
+    <description>
+       Es mi primer app
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Ivan Feliciano
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <icon src="www/img/dogue.png" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="SplashMaintainAspectRatio" value="true|false" />
+    <preference name="SplashShowOnlyFirstTime" value="true|false" />
+</widget>
